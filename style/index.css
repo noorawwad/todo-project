@@ -1,0 +1,58 @@
+.container{
+    width: 80 px;
+    margin:0 auto; 
+ }
+ main{
+     background-color:#B6D7A8;
+     font-family: 'Times New Roman', Times, serif;
+ 
+     font-weight: 400;
+ }
+ header{
+     background-color: #FFE4E1;
+ 
+ }
+ .logo{
+     float: right;
+     width: 100px;
+     height: 100px;
+ }
+ .nav{
+     float:none;
+     list-style: none;
+    
+    
+ }
+ .nav li{
+ 
+     display: inline-block;
+     margin-left: 90px;
+     border-style:groove;
+     border: width 20px;;
+ }
+ #h1{
+     
+   text-emphasis-color: green;
+   text-align: right;
+ }
+ #P1{
+     text-align: center;
+     color: rgb(231, 162, 119);
+     border: gold;
+ }
+ .Hicon{
+     float:none;
+     list-style: none;
+ }
+ .Hicon li{
+     display:inline-block;
+    text-align:right;
+ margin-right: 200px;
+ border-width: 10px;
+ border-color: gray;
+ border-style:groove;
+ }
+ footer{
+     background-color: #CBDAEB;
+ 
+ }

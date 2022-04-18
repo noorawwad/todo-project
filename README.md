@@ -15,3 +15,7 @@ Js task3
 
 
 ## Question solution Task 5
+
+1-Css is funy langauge but also need alot of practice so its just my first time in styling hope its will take your satisaction
+
+2-its talk the hole day its too too long 

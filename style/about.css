@@ -1,11 +1,142 @@
-.autherSection{
-    background-color: aqua;
-   font-family: 'Times New Roman', Times, serif;
+* {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border:0ex;
+    text-decoration: none;
+    text-transform:initial;
+    transition: 0.2s linear;
+    color: black;
+  }
+
+body{
+    background-color:rgb(173, 201, 201)
 }
-.UserSection{
-    background-color: beige;
-    font-style: italic;
+
+.icon{
+  cursor:default;
+  font-size: 1.5rem;
+  border-bottom: border 1rem;
+  text-align:right;
+  
+}
+#logo{
+    width: 50 px;
+    height: 1.5cm;
+    margin-left: 2px;
+    text-align: right;
+
+}
+.navBar{
+    background:#FFFDD0;
+    padding: 1.5rem;
+    border-bottom: 2px solid salmon;
+    border-top: 2px solid salmon; 
+}
+.navBar a{
+    margin: 1.5em;
+    font-style:initial;
+    color :black ;
+}
+.navBar a:hover{
+    color: #FAE481;
+}
+.welcome{
+text-align: justify;
+
+
+}
+.welcome P{
+column-count: 2;
+column-gap :40px;
+column-rule-style:solid;
+}
+.welcome h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: white ;
+    text-decoration: dotted;
+}
+.Home h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: white ;
+    text-decoration: dotted;
+}
+.Home P{
+    column-count: 2;
+    column-gap :40px;
+    column-rule-style:solid;
+    }
+.ToDoList{
+  margin-top: 30px;
+  text-align: justify;
+}
+.ToDoList h2{
+    color: #FAE481;
+    margin-bottom: 15px;
+}
+.ToDoList p {
+text-align: center;
+margin-bottom: 20px;
+}
+.tg{
+    text-align: center;
+    margin-left: 200px;
 }
 footer{
-    background-color: aquamarine;
+    background-color: #FAE481;
+    height: fit-content;
+    background-color: white;
+    padding: 5px ,0px ,5px ,0px;
+    margin-top: 20px;
+    height: fit-content;
+    border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+.ContactUs {
+ height: 5rem;
+  width: 5rem;
+  line-break: 5rem;
+  font-size: 1rem;
+  margin-left: 0.3rem;
+  margin-right: 1rem;
+  margin-bottom: 0px;
+  
+}
+.ContactUs #face:hover{
+   background-color: #1f57cf; 
+}
+.ContactUs #insta:hover{
+    background-color: #e44c6d; 
+ }
+ .ContactUs #whats:hover{
+    background-color:green; 
+ }
+.ContactUs h4{
+    font-size: 12px;
+    text-transform:capitalize;
+    margin-bottom: 0.7rem;
+    margin-top: 1rem;
+    
+}
+.map {
+ margin-left:0.3rem;
+ border-bottom: 1px solid black;
+  padding-bottom: 5px;   
+}
+.map h3{
+    font-size:12px;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    text-transform:capitalize;
+}
+.copywrite{
+    font-size: 12px;
+    margin-left: 00.3rem;
+    text-transform:capitalize;
+    margin-top: 00.7rem;
+    font-weight: bold ;
+    text-align: center;
 }

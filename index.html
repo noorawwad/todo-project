@@ -10,85 +10,95 @@
     
 </head>
 <body>
-<script src="./js/app.js"></script>
+ <script src="./js/app.js"></script>
   <header>
     <!-- its for a header icon as serch bootom-->
-    <ul class="Hicon">
-        <li>Select a drama to watch </li>   
-        <li> Sign in </li> 
-        <li> Sign up </li>  
-       </ul>
-       <!-- -->
-      <div class="container">
-        <nav>
-            <ul class="nav">
-            <li><a href="index.html">Home</a> </li>
-            <li><a href="about.html">about</a> </li>
-            </ul>
-           
-           </nav> 
+    <img src="https://adniasolutions.com/wp-content/uploads/2018/05/To-Do-List-Excel-Template-01.png"alt="Logo" id="logo">
+      <div class="icon">
+      <ion-icon name="search-outline"></ion-icon>
+      <ion-icon name="log-in-outline"></ion-icon>
+      <ion-icon name="log-out-outline"></ion-icon>
+      
+    </div>
+       
+      <nav class="navBar">
+        <a href="#Home">Home</a>
+        <a href="about.html">about</a> 
+        <a href="#welcome">welcome</a> 
+        <a href="#ToDoList">ToDoList</a> 
+        <a href="#ContactUs">ContactUs</a>
+       </nav> 
      <br> 
-</div>
-</header>
-<br>
-<br>
+   </div>
+   
+  </header>
 
 <main>
-
-    <h2>Hello this is the main part</h2>
-     <!-- This is to make a table in home page-->
-    <style type="text/css">
-        .tg  {border-collapse:collapse;border-spacing:0;}
-        .tg td{border-color:black;border-style:solid;border: width 2px;font-family:Arial, sans-serif;font-size:14px;
-          overflow:hidden;padding:10px 5px;word-break:normal;}
-        .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-          font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-        .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-        .tg .tg-0lax{text-align:center;vertical-align:top}
-        </style>
-        <table class="tg">
-        <thead>
-          <tr>
-            <th class="tg-0pky">Task</th>
-            <th class="tg-0lax">status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tg-0lax">1</td>
-            <td class="tg-0lax"></td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">2</td>
-            <td class="tg-0lax"></td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">3</td>
-            <td class="tg-0lax"></td>
-          </tr>
-        </tbody>
-        </table>
-    <!---->
-</main>
-<footer>
-    <ul>
-        <li class="footerlist"> contact with us
-        <Ul> 
-            <li>facebook</li>
-            <li>Email</li>
-            <li>Telphone</li>
-        </Ul>
-        </li>
-        <li class="footerlist"><a href="https://www.google.com/maps/@31.9913984,35.897344,12z" alt="K-drama company location" ></a>Our location </li>
-        <li class="footerlist"> Jobs
-        <ul> <li>Join our family</li> </ul> 
-        </li>
-        <li class="footerlist"> copywrite 
-        <ul><li> created by Noor awwad at 2022 &copy;</li> </ul></li>
-
-    </ul>
-   
+  <section class ="welcome" id="welcome">
+    <h2>Hello in To-do website</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga non porro tenetur enim praesentium beatae, quas, molestias dolores recusandae, dicta unde. Nisi fugit in laborum ducimus quae, quia obcaecati.</p>
+    <ion-icon name="heart-outline"></ion-icon>
+  </section>
   
-</footer>
+  <section class ="Home" id="Home">
+      <h2>Way should you use our website?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga non porro tenetur enim praesentium beatae, quas, molestias dolores recusandae, dicta unde. Nisi fugit in laborum ducimus quae, quia obcaecati.</p>
+    </section>
+
+  <section class ="ToDoList" id="ToDoList">
+      <h2>Its the time to do your task </h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga non porro tenetur enim praesentium beatae, quas, molestias dolores recusandae, dicta unde. Nisi fugit in laborum ducimus quae, quia obcaecati.</p>
+  <!-- its the table for the home section-->
+  <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-0lax{text-align:left;vertical-align:top}
+  </style>
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0lax">List</th>
+        <th class="tg-0lax">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0lax">Learn JS</td>
+        <td class="tg-0lax">done</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Creat HTML page</td>
+        <td class="tg-0lax">not yet</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Watch K-drama</td>
+        <td class="tg-0lax">done</td>
+      </tr>
+    </tbody>
+    </table>
+  </section>
+ </main>
+
+   <footer class="footer">
+    <div class="ContactUs" id="ContactUs">
+      <h4>our social media account</h4>
+    
+     <ion-icon id="face" name="logo-facebook"></ion-icon>
+     <ion-icon id="insta" name="logo-instagram"></ion-icon>
+     <ion-icon  id="whats" name="logo-whatsapp"></ion-icon>
+    
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </div>
+  <br>
+  <div class="map">
+    <h3>Our location</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125128.23205953183!2d35.95562314860126!3d31.975256178324457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca111522f3865%3A0x11b089ea2c9eafad!2sReaders%20Bookshop!5e0!3m2!1sar!2sjo!4v1650297294535!5m2!1sar!2sjo" width="100" height="70" style="border: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+   <div class="copywrite">all right reserved &copy;2022 <span>Noorawwad</span></div>
+  </footer>
 </body>
 </html>

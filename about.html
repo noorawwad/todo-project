@@ -4,101 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-do</title>
-    <link rel="stylesheet" href="./style/index.css">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style/about.css">
     <link rel="shortcut icon" type="image/png" href="./assest/Photo.png">
-    
 </head>
 <body>
- <script src="./js/app.js"></script>
   <header>
-    <!-- its for a header icon as serch bootom-->
-    <img src="https://adniasolutions.com/wp-content/uploads/2018/05/To-Do-List-Excel-Template-01.png"alt="Logo" id="logo">
-      <div class="icon">
-      <ion-icon name="search-outline"></ion-icon>
-      <ion-icon name="log-in-outline"></ion-icon>
-      <ion-icon name="log-out-outline"></ion-icon>
-      
-    </div>
-       
-      <nav class="navBar">
-        <a href="#Home">Home</a>
-        <a href="about.html">about</a> 
-        <a href="#welcome">welcome</a> 
-        <a href="#ToDoList">ToDoList</a> 
-        <a href="#ContactUs">ContactUs</a>
-       </nav> 
-     <br> 
-   </div>
-   
-  </header>
+    <a href="">
+        <img id="logo" src="data:image/png;base64,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"alt="Logo">
+        </a>
+    <nav class="navBar">
+            <a href="index.html">Home</a>
+            <a href="about.html">about</a> 
+            <a href="#LeaderSection">LeaderSection</a> 
+            <a href="#ContactDirectly">ContactDirectly</a>      
+    </nav>    
+</header>
 
 <main>
-  <section class ="welcome" id="welcome">
-    <h2>Hello in To-do website</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga non porro tenetur enim praesentium beatae, quas, molestias dolores recusandae, dicta unde. Nisi fugit in laborum ducimus quae, quia obcaecati.</p>
-    <ion-icon name="heart-outline"></ion-icon>
-  </section>
-  
-  <section class ="Home" id="Home">
-      <h2>Way should you use our website?</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga non porro tenetur enim praesentium beatae, quas, molestias dolores recusandae, dicta unde. Nisi fugit in laborum ducimus quae, quia obcaecati.</p>
+    <section class="LeaderSection" id="LeaderSection">
+        <h2>Hello in the to-do team information section</h2>
+        <p id="P1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga non porro tenetur enim praesentium beatae, quas, molestias dolores recusandae, dicta unde. Nisi fugit in laborum ducimus quae, quia obcaecati.</p>
+        <img id="profilePhoto"src="./assest/Profile photo.png" alt="Personal photo">
+        
     </section>
-
-  <section class ="ToDoList" id="ToDoList">
-      <h2>Its the time to do your task </h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga non porro tenetur enim praesentium beatae, quas, molestias dolores recusandae, dicta unde. Nisi fugit in laborum ducimus quae, quia obcaecati.</p>
-  <!-- its the table for the home section-->
-  <style type="text/css">
-    .tg  {border-collapse:collapse;border-spacing:0;}
-    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-      overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg .tg-0lax{text-align:left;vertical-align:top}
-  </style>
-    <table class="tg">
-    <thead>
-      <tr>
-        <th class="tg-0lax">List</th>
-        <th class="tg-0lax">Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="tg-0lax">Learn JS</td>
-        <td class="tg-0lax">done</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">Creat HTML page</td>
-        <td class="tg-0lax">not yet</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">Watch K-drama</td>
-        <td class="tg-0lax">done</td>
-      </tr>
-    </tbody>
-    </table>
-  </section>
- </main>
-
-   <footer class="footer">
-    <div class="ContactUs" id="ContactUs">
-      <h4>our social media account</h4>
-    
-     <ion-icon id="face" name="logo-facebook"></ion-icon>
-     <ion-icon id="insta" name="logo-instagram"></ion-icon>
-     <ion-icon  id="whats" name="logo-whatsapp"></ion-icon>
-    
-     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </div>
-  <br>
-  <div class="map">
-    <h3>Our location</h3>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125128.23205953183!2d35.95562314860126!3d31.975256178324457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca111522f3865%3A0x11b089ea2c9eafad!2sReaders%20Bookshop!5e0!3m2!1sar!2sjo!4v1650297294535!5m2!1sar!2sjo" width="100" height="70" style="border: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-   <div class="copywrite">all right reserved &copy;2022 <span>Noorawwad</span></div>
+    <br>
+    <section class="ContactDirectly" id="ContactDirectly">
+        <h2>Contact me </h2>
+        <form>
+            <label for="fname">full name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="Email">Email:</label><br>
+            <input type="text" id="Email" name="Email"><br>
+            <label for="Phone">Phone:</label><br>
+            <input type="text" id="Phone" name="Phone"><br>
+            <label for="Massage">Massage:</label><br>
+            <input type="text" id="Massage" name="Massage">
+            <button class="button">submit button</button>
+        </form>
+    </section>
+</main>
+<footer>
+   <div class="copywrite">All right reserved &copy;2022 <span>Noorawwad</span></div>
   </footer>
+   
+</footer>
 </body>
 </html>

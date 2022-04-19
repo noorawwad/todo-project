@@ -1,11 +1,91 @@
-.autherSection{
-    background-color: aqua;
-   font-family: 'Times New Roman', Times, serif;
+* {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border:0ex;
+    text-transform:initial;
+    transition: 0.2s linear;
+    color: black;
+  }
+  body{
+    background-color:whitesmoke;
 }
-.UserSection{
-    background-color: beige;
-    font-style: italic;
+.icon{
+    cursor:default;
+    font-size: 1.5rem;
+    border-bottom: border 1rem;
+    text-align:right;
+    
+}
+#logo{
+    width: 50 px;
+    height: 1.5cm;
+    margin-left: 2px;
+    text-align: right;
+
+}
+.navBar{
+    background:#FFFDD0;
+    padding: 1.5rem;
+    border-bottom: 2px solid salmon;
+    border-top: 2px solid salmon; 
+}
+.navBar a{
+    margin: 1.5em;
+    font-style:initial;
+    color :black ;
+}
+.navBar a:hover{
+    color: #FAE481;
+}
+.LeaderSection h2{
+padding: 0.3em;
+margin-left: 10px;
+}
+#profilePhoto{
+    width: 200px;
+    float:right;
+    margin-right: 30px;
+}
+.LeaderSection{
+    
+    margin-left: 5px;
+    float: left;
+
+}
+
+.LeaderSection p{
+column-count: 3;
+column-gap :40px;
+float: right;
+margin-right: 1.5rem;
+padding: right 12% ;
+}
+.LeaderSection h2{
+    font-display:initial ;
+    color:darkolivegreen;
+}
+
+.ContactDirectly{
+    padding-left: 00.3rem;
+    margin-left: 000.7rem;
+}
+.ContactDirectly h2{
+    color:darkolivegreen;
+}
+.button{
+    background-color: #FAE481;
+    border-style:groove;
+    border-width: 3px;
+    border-color: #FFFDD0;
 }
 footer{
-    background-color: aquamarine;
+    background-color:white;
+    padding: 4px;
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: dotted;
+    
+
 }

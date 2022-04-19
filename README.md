@@ -19,3 +19,8 @@ Js task3
 1-Css is funy langauge but also need alot of practice so its just my first time in styling hope its will take your satisaction
 
 2-its talk the hole day its too too long 
+
+## Question solution Task 6
+
+1-its was a little hard task its make me open my mind 
+2- Its take almost 4 hour as i gusses it will be

@@ -24,3 +24,6 @@ Js task3
 
 1-its was a little hard task its make me open my mind 
 2- Its take almost 4 hour as i gusses it will be
+
+#about wireframe
+<img width="276" alt="about wire-frame" src="https://user-images.githubusercontent.com/103364510/164260425-66d3b16e-ac21-4003-a3af-716c68a86975.PNG">
